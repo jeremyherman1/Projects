@@ -1,0 +1,10 @@
+New-ADUser -Name "Morty Smith" -SamAccountName "morty.smith" -UserPrincipalName morty
+New-ADUser -Name "Rick Sanchez" -SamAccountName "rick.sanchez" -UserPrincipalName rick
+New-ADUser -Name "Rick Grimes" -SamAccountName "rick.grimes" -UserPrincipalName rickg
+New-ADUser -Name "Juan Valdez" -SamAccountName "juan.valdez" -UserPrincipalName juan
+New-ADUser -Name "Napoleon Dynamite" -SamAccountName "napoleon.dynamite" -UserPrincipalName napoleon 
+New-ADUser -Name "Harvey" -Surname Dent -GivenName Harvey1` 
+-UserPrincipalName harveydent
+New-ADUser -Name "Frank Castle" -GivenName Frank` 
+-UserPrincipalName frank`
+-AccountPassword(ConvertTo-SecureString "Password1!" -AsPlainText -Force)
